@@ -5,5 +5,8 @@ def list_powers(n, m):
         li.append(i**m)
     return li
 
-for i in list_powers(4, 3):
-    print(i)
+print(__name__)
+
+if __name__ == "__main__":
+    for i in list_powers(4, 3):
+        print(i)
