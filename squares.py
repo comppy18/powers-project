@@ -5,5 +5,8 @@ def list_squares(n):
         li.append(i**2)
     return li
 
-for i in list_squares(4):
-    print(i)
+print(__name__)
+
+if __name__ == "__main__":
+    for i in list_squares(4):
+        print(i)
