@@ -1,8 +1,8 @@
-import squares
+import powers
 
 def test_squares():
-    assert squares.list_powers(3, 2) == [1, 4, 9]
+    assert powers.list_powers(3, 2) == [1, 4, 9]
 
 def test_cubes():
-    assert squares.list_powers(3, 3) == [1, 8, 27]
+    assert powers.list_powers(3, 3) == [1, 8, 27]
 
