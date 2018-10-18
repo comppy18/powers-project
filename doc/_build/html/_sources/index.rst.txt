@@ -12,8 +12,6 @@ Welcome to Powers project's documentation!
 
    modules
 
-
-
 Indices and tables
 ==================
 
