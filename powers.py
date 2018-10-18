@@ -7,6 +7,7 @@ def list_powers(n, m):
     >>> list_powers(3, 3)
     [1, 8, 27]
     """
+    assert n > 0
     li = [] 
     for i in range(1, n+1):
         li.append(i**m)

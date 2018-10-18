@@ -10,6 +10,8 @@ Welcome to Powers project's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   modules
+
 
 
 Indices and tables
