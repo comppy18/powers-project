@@ -13,5 +13,13 @@ def list_powers(n, m):
     return li
 
 if __name__ == "__main__":
-    for i in list_powers(4, 3):
+    import sys
+    try:
+        number_of_elements = int(sys.argv[1])
+        exponent = int(sys.argv[2])
+    except IndexError:
+        print(f"Usage: {sys.argv[0]} number_of_elements exponent")
+        sys.exit(1)
+
+    for i in list_powers(number_of_elements, exponent):
         print(i)
