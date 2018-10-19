@@ -13,7 +13,7 @@ def list_powers(n, m):
         li.append(i**m)
     return li
 
-if __name__ == "__main__":
+def main():
     import sys
     try:
         number_of_elements = int(sys.argv[1])
@@ -24,3 +24,8 @@ if __name__ == "__main__":
 
     for i in list_powers(number_of_elements, exponent):
         print(i)
+
+    return 0
+
+if __name__ == "__main__":
+    main()
